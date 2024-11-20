@@ -1,0 +1,21 @@
+a{background-color: red}
+
+.class{background-color: orange}
+
+#id{background-color: yellow}
+
+button[type=submit]{background-color: green;}
+
+div p{background-color: blue;}
+
+div > a{background-color: purple}
+
+.sequence p{background-color: aquamarine}
+
+.first .second {background-color: cornflowerblue}
+
+.class-id #id-class {background-color: gold}
+
+#id-p p{background-color: darkslategrey}
+
+

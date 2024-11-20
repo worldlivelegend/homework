@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Homework 4</title>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <a>Застосовується до елементів з тегом a, вага 1*</a>
+
+    <div class="class">Застосовується до елементів з класом "class", вага 10*</div>
+
+    <div id="id">Застосовується до елементів з айді "id", вага 100*</div>
+
+    <button type="submit">Використовується для елементів button з type=submit, вага 11*</button>
+
+    <div>
+      <div></div>
+      <p>gjgkf</p>
+      <p>Використовується для всіх тегів p, вкладених у div, вага 2* </p>
+    </div>
+
+    <div>
+      <a>Використовується для тегів a, вкладених у div на першому рівні, вага 2*</a>
+      <a></a>
+    </div>
+
+    <div class="sequence">
+      <p>Використовується для всіх тегів p, в селекторів класу sequence, вага 11*</p>
+    </div>
+
+    <div class="first">
+      <p class="second">Використовується для тегів з класом second вкладеного в теги з класом first, вага 20* </p>
+    </div>
+
+    <div class="class-id">
+      <p id="id-class"> Використовується для тегів з айді id-class вкладених в теги з класом class-id, вага 110*</p>
+      <a></a>
+    </div>
+
+    <div id="id-p">
+      <p>Використовується для тегів p вкладених в div з айді id-div, вага 101*</p>
+      <a></a>
+    </div>
+  </body>
+</html>
