@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.flex div{
+    border: solid 1px black;
+}
+
+.flex-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+span{font-size: 52px}
+
+.flex-border div{
+    border: solid 1px black;
+}
+
+
+.inline-block{
+    display: inline-block;
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+
+

@@ -1,0 +1,49 @@
+body{height: 3000px}
+
+.static{
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+}
+.relative{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    left: 220px;
+    top: 40px;
+}
+
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    left: -10px;
+    top: -10px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: lightsalmon;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+.sticky{
+    height: 1500px;
+    width: 200px;
+    background-color: lightseagreen;
+}
+
+.sticky div{
+    position: sticky;
+    background-color: lightyellow;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
