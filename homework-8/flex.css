@@ -1,0 +1,53 @@
+.left-right{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-block, .left-block{
+    display: flex;
+    gap: 24px;
+}
+
+.left{
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.right{
+    width: 300px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+.right-divs{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.small-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.small-divs div{
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.big-div{
+    width: 300px;
+    height: 212px;
+    background-color: lightpink;
+}
+
+.center-divs{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
