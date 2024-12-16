@@ -1,0 +1,49 @@
+@use "variables" as *;
+
+.header {
+    background-color: $background-color;
+
+    &__button {
+    margin-block: 62px 41px;
+    padding: 20px 41px;
+    border: none;
+    background-color: $main-color;
+    color: white;
+    letter-spacing: var(--letter-spacine);
+    }
+
+    ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    list-style-type: none;
+    padding-bottom: 162px;
+    padding-inline: 0;
+    }
+
+    nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacine;
+
+        &:hover {
+            color: #34547A;
+        }
+    }
+
+    h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 60px;
+    }
+}
+
+.paragraph {
+    font-size: 16px;
+    color: $text-color;
+    font-weight: 400;
+    width: 540px;
+}

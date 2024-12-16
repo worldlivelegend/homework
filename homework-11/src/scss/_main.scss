@@ -1,0 +1,74 @@
+@use "variables" as *;
+
+@mixin flex-justify {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-width: 1150px;
+}
+
+.light-dark__container{
+  background-color: $background-color;
+}
+
+.container {
+    max-width: 1150px;
+    padding-inline: 20px;
+    margin-inline: auto;
+    padding-block: 100px;
+}
+
+.about-block {
+  &__header {
+    @include flex-justify;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 12px;
+  }
+  &__text {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}
+
+.dark-container {
+    background-color: $main-color;
+    color: white;
+
+  .works {
+    @include flex-justify;
+    flex-wrap: wrap;
+    gap: 42px;
+
+    &__items {
+    width: 141px;
+    height: 50px;
+    padding-left: 70px;
+    font-size: 21px;
+    line-height: 25px;
+    background: left no-repeat url("../images/project.svg");
+    font-weight: 500;
+    }
+
+    &__projects {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    }
+  }
+}
+
+.light-dark__text .paragraph {
+  text-align: center;
+  margin: 0 auto;
+  padding-block: 50px 57px;
+}
+
