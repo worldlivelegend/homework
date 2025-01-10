@@ -4,6 +4,34 @@
   background: $blue_gradient;
   padding-inline: 60px;
   position: relative;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.container-gradient::before {
+  content: '';
+  position: absolute;
+  background-color: $dark-gray;
+  width: 90%;
+  height: 20px;
+  bottom: -10px;
+  right: 5%;
+  left: 5%;
+  border-radius: 12px;
+  z-index: -10;
+}
+
+.container-gradient::after {
+  content: '';
+  position: absolute;
+  background-color: #E7E7F2;
+  width: 80%;
+  height: 20px;
+  bottom: -20px;
+  border-radius: 12px;
+  right: 10%;
+  left: 10%;
+  z-index: -100;
 }
 
 .logo-slash, .logo-services, .header__logo__hamburger {
@@ -47,6 +75,7 @@
   height: 750px;
   position: relative;
   top: -20px;
+  overflow: initial;
 }
 
 header {
