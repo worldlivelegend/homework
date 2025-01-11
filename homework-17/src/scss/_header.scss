@@ -6,6 +6,7 @@
   position: relative;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+  color: white;
 }
 
 .container-gradient::before {
@@ -145,6 +146,7 @@ header {
 
 .right-part__bottom {
   grid-column: 2;
+
   ol {
     @include display-flex;
     justify-content: flex-end;
@@ -157,6 +159,7 @@ header {
 
     a {
       text-decoration: none;
+      color: white;
     }
   }
 }
