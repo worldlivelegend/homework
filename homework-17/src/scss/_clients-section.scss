@@ -17,6 +17,8 @@
 .clients-section__grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(150px, 430px));
+  max-width: 1434px;
+  padding-bottom: 60px;
 
   img {
     height: 120px;
